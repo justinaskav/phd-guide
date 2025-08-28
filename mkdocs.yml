@@ -1,7 +1,8 @@
-site_name: Guide for Life Sciences Center PhD Students 
-# site_url: 
-# repo_url:
-# repo_name
+site_name: VU LSC PhD Student Guide
+site_url: https://justinaskav.github.io/phd-guide/ 
+repo_url: https://github.com/justinaskav/phd-guide
+repo_name: LSC PhD Guide
+edit_uri: edit/main/docs/
 theme:
   # logo: 
   # favicon:
@@ -63,8 +64,10 @@ plugins:
         - locale: lt
           name: Lietuvių
           default: true
+          site_name: VU GMC doktorantūros studentų gidas
         - locale: en
           name: English
+          site_name: Guide for Life Sciences Center PhD Students 
           nav:
             - Intro: index.md
             - Studies: 
