@@ -1,0 +1,9 @@
+name: lsc-docs # This will become the name of your environment
+dependencies: # The list of packages to include in your environment
+    - python=3.12 # You can specify versions
+    - mkdocs
+    - pip # Install pip in your environment
+    - pip: # Include pip dependencies last
+        - mkdocs-material
+        - mkdocs-static-i18n
+        - mkdocs-git-revision-date-localized-plugin

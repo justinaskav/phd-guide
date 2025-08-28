@@ -1,0 +1,80 @@
+/* VU University Brand Colors */
+:root {
+  --md-primary-fg-color: #78003f;
+  --md-primary-fg-color--light: #9c1a5e;
+  --md-primary-fg-color--dark: #5a002f;
+  --md-primary-bg-color: #ffffff;
+  --md-primary-bg-color--light: #fcfcfc;
+  
+  --md-accent-fg-color: #78003f;
+  --md-accent-fg-color--transparent: rgba(120, 0, 63, 0.1);
+  --md-accent-bg-color: #ffffff;
+  --md-accent-bg-color--light: #fcfcfc;
+}
+
+/* Header and navigation */
+.md-header {
+  background-color: var(--md-primary-fg-color);
+}
+
+.md-tabs {
+  background-color: var(--md-primary-fg-color);
+}
+
+/* Links and buttons */
+.md-typeset a {
+  color: var(--md-primary-fg-color);
+}
+
+.md-typeset a:hover {
+  color: var(--md-primary-fg-color--dark);
+}
+
+/* Navigation active states */
+.md-nav__item--active > .md-nav__link {
+  color: var(--md-primary-fg-color);
+}
+
+.md-nav__link--active {
+  color: var(--md-primary-fg-color);
+}
+
+/* Search highlighting */
+.md-search-result__teaser mark {
+  background-color: var(--md-accent-fg-color--transparent);
+  color: var(--md-primary-fg-color--dark);
+}
+
+/* Table of contents active item */
+.md-nav__link--active,
+.md-nav__item .md-nav__link--active {
+  color: var(--md-primary-fg-color);
+}
+
+/* Code blocks and inline code accent */
+.md-typeset .highlight .hll {
+  background-color: var(--md-accent-fg-color--transparent);
+}
+
+.md-typeset .admonition,
+.md-typeset details.question {
+  background-color: var(--md-accent-fg-color);
+  border-color: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+/* icon color */
+.md-typeset details.question summary::before,
+.md-typeset details.question summary::after {
+  background-color: var(--md-primary-bg-color);
+}
+
+
+
+/* Admonition headers with VU colors */
+/* .md-typeset .admonition.note > .admonition-title, */
+/* .md-typeset .admonition.info > .admonition-title { */
+/*   background-color: var(--md-accent-fg-color--transparent); */
+/*   border-color: var(--md-primary-fg-color); */
+/* } */
