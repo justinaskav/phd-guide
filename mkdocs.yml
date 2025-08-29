@@ -1,7 +1,7 @@
 site_name: VU LSC PhD Student Guide
 site_url: https://justinaskav.github.io/phd-guide/ 
 repo_url: https://github.com/justinaskav/phd-guide
-# repo_name: LSC PhD Guide
+repo_name: lsc/phd-guide
 edit_uri: edit/main/docs/
 theme:
   # logo: 
@@ -37,6 +37,7 @@ theme:
     - navigation.tracking
     - navigation.tabs
     - navigation.tabs.sticky
+    - navigation.footer
     # - navigation.tabs
     # - navigation.path
     - toc.follow
@@ -78,11 +79,27 @@ plugins:
           name: Lietuvių
           default: true
           site_name: VU GMC doktorantūros studentų gidas
+          nav:
+            - Pradžia: index.md
+            - Studijos: 
+              - Apie doktorantūros studijas: studies/about-phd.md
+              - Doktorantūros studijų eiga: 
+                - Planas: studies/phd-plan.md
+                - Egzaminai: studies/exams.md
+                - Bendrosios kompetencijos: studies/transferable-skills.md
+                - Ataskaitos: studies/progress-reports.md
+                - Disertacija ir studijų baigimas: studies/completion.md
+              - Finansai: studies/finances.md
+            - GMC struktūra: lsc-structure.md
+            - Atstovavimas: student-representation.md
+            - Kontaktai: contacts.md
+            - Naudingos nuorodos: useful-links.md
+            - DUK: faq.md
         - locale: en
           name: English
           site_name: Guide for Life Sciences Center PhD Students 
           nav:
-            - Intro: index.md
+            - Home: index.md
             - Studies: 
               - About: studies/about-phd.md
               - Course of PhD Studies: 
@@ -90,7 +107,7 @@ plugins:
                 - Exams: studies/exams.md
                 - Transferable Skills: studies/transferable-skills.md
                 - Progress Reports: studies/progress-reports.md
-                - Completion: studies/completion.md
+                - Dissertation and study completion: studies/completion.md
               - Finances: studies/finances.md
             - LSC Structure: lsc-structure.md
             - Student Representation: student-representation.md

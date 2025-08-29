@@ -1,0 +1,1 @@
+# Bendrosios kompetencijos

@@ -38,7 +38,7 @@ costs of their dissertation defence.
 The funds can be used for immediate needs, such as laboratory equipment, reagents, PC
 equipment, printed materials, literature, academic trips, etc. Doctoral students must submit
 invoices for goods and equipment purchased to the VU Life Sciences Center to the public
-procurement specialist Laimutė Čekutienė, office No 513, email laimute.cekutiene@cr.vu.lt
+procurement specialist ~~Laimutė Čekutienė, office No 513, email laimute.cekutiene@cr.vu.lt~~
 by 1 December of the calendar year. However, unused funds are not lost at the end of
 the year and can still be used the following year.
 
@@ -158,17 +158,3 @@ BChI).
 Thus, every December you can hope for extra funds for your Christmas presents, especially
 if you have had a productive year publishing articles! However, you shouldn’t get your hopes
 up too high, as these distributions don’t normally take place every year.
-
-Contacts:
-
-Regarding the purchase procedures:
-
-- ~~Laimutė Čekutienė, laimute.cekutiene@cr.vu.lt , tel. no. 4425, room C513.~~
-
-Due to the balance of funds:
-
-- Vidutė Bobinienė, vidute.bobiniene@gmc.vu.lt, tel. No. 4423, room C137.
-
-Regarding funding for the academic trips:
-
-- Ilma Jonaitytė, ilma.jonaityte@cr.vu.lt, tel. No. 7008).
