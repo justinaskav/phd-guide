@@ -1,108 +1,105 @@
-/* VU University Brand Colors */
+/* =============================================================================
+   VU University Brand Colors & Custom Properties
+   ============================================================================= */
+
 :root {
   --md-primary-fg-color: #78003f;
   --md-primary-fg-color--light: #9c1a5e;
   --md-primary-fg-color--dark: #5a002f;
   --md-primary-bg-color: #ffffff;
   --md-primary-bg-color--light: #fcfcfc;
-  
+
   --md-accent-fg-color: #78003f;
   --md-accent-fg-color--transparent: rgba(120, 0, 63, 0.1);
   --md-accent-bg-color: #ffffff;
   --md-accent-bg-color--light: #fcfcfc;
 }
 
-/* Header and navigation */
+/* =============================================================================
+   LIGHT MODE STYLES
+   ============================================================================= */
+
+/* Header and Navigation */
 .md-header {
   background-color: var(--md-primary-fg-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .md-tabs {
   background-color: var(--md-primary-fg-color);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
 
-/* Dark mode specific styling */
-[data-md-color-scheme="slate"] .md-header {
-  background-color: var(--md-primary-fg-color--dark);
+/* Typography */
+.md-typeset h1 {
+  font-weight: 700;
+  color: var(--md-primary-fg-color);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
 }
 
-[data-md-color-scheme="slate"] .md-tabs {
-  background-color: var(--md-primary-fg-color--dark);
+.md-typeset h2,
+.md-typeset h3 {
+  font-weight: 600;
+  color: var(--md-primary-fg-color--dark);
 }
 
-/* Make navbar text white and visible in dark mode */
-[data-md-color-scheme="slate"] .md-header__title,
-[data-md-color-scheme="slate"] .md-header-nav__title {
-  color: #ffffff !important;
-}
-
-[data-md-color-scheme="slate"] .md-tabs__link {
-  color: #ffffff !important;
-  opacity: 0.9;
-}
-
-[data-md-color-scheme="slate"] .md-tabs__link--active,
-[data-md-color-scheme="slate"] .md-tabs__link:hover {
-  color: #ffffff !important;
-  opacity: 1;
-}
-
-[data-md-color-scheme="slate"] .md-header__button {
-  color: #ffffff;
-}
-
-/* Links and buttons */
+/* Links and Content */
 .md-typeset a {
   color: var(--md-primary-fg-color);
-  text-decoration-line: underline;
-  text-decoration-style: dotted;
-  text-decoration-color: var(--md-primary-fg-color);
+  /* text-decoration-line: underline; */
+  /* text-decoration-style: dotted; */
+  /* text-decoration-color: var(--md-primary-fg-color); */
+  transition: all 0.2s ease;
 }
 
 .md-typeset a:hover {
   color: var(--md-primary-fg-color--dark);
 }
 
-/* Links and buttons - brighter and more prominent in dark mode */
-[data-md-color-scheme="slate"] .md-typeset a {
-  color: var(--md-primary-fg-color--light);
-  font-weight: 500;
-  text-decoration-line: underline;
-  text-decoration-style: dotted;
-  text-decoration-color: var(--md-primary-fg-color--light);
-}
-
-[data-md-color-scheme="slate"] .md-typeset a:hover {
-  color: #ffffff;
-  text-decoration-style: solid;
-}
-
-/* Navigation active states */
-.md-nav__item--active > .md-nav__link {
-  color: var(--md-primary-fg-color);
-}
-
+/* Navigation and Table of Contents */
+.md-nav__item--active>.md-nav__link,
 .md-nav__link--active {
   color: var(--md-primary-fg-color);
 }
 
-/* Search highlighting */
-.md-search-result__teaser mark {
-  background-color: var(--md-accent-fg-color--transparent);
-  color: var(--md-primary-fg-color--dark);
+.md-nav__link:hover {
+  color: var(--md-primary-fg-color--light);
 }
 
-/* Table of contents active item */
-.md-nav__link--active,
-.md-nav__item .md-nav__link--active {
+.md-nav--secondary .md-nav__title {
+  font-weight: 600;
   color: var(--md-primary-fg-color);
+  border-bottom: 2px solid var(--md-primary-fg-color--light);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
-/* Code blocks and inline code accent */
-.md-typeset .highlight .hll {
-  background-color: var(--md-accent-fg-color--transparent);
+.md-nav--secondary .md-nav__item {
+  margin-bottom: 0.3rem;
 }
 
+/* Content Area */
+.md-main__inner {
+  padding-top: 1rem;
+}
+
+.md-content {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+/* Code Blocks */
+.md-typeset pre {
+  border-left: 4px solid var(--md-primary-fg-color);
+  background-color: #f8f9fa;
+}
+
+/* Admonitions */
+.md-typeset .admonition {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Custom Question Details */
 .md-typeset details.question {
   background-color: var(--md-accent-fg-color);
   border-color: var(--md-primary-fg-color);
@@ -110,17 +107,177 @@
   margin-top: 1em;
   margin-bottom: 1em;
 }
-/* icon color */
+
 .md-typeset details.question summary::before,
 .md-typeset details.question summary::after {
   background-color: var(--md-primary-bg-color);
 }
 
+/* Search and Highlighting */
+.md-search-result__teaser mark {
+  background-color: var(--md-accent-fg-color--transparent);
+  color: var(--md-primary-fg-color--dark);
+}
 
+.md-typeset .highlight .hll {
+  background-color: var(--md-accent-fg-color--transparent);
+}
 
-/* Admonition headers with VU colors */
-/* .md-typeset .admonition.note > .admonition-title, */
-/* .md-typeset .admonition.info > .admonition-title { */
-/*   background-color: var(--md-accent-fg-color--transparent); */
-/*   border-color: var(--md-primary-fg-color); */
-/* } */
+/* =============================================================================
+   DARK MODE OVERRIDES
+   ============================================================================= */
+
+[data-md-color-scheme="slate"] {
+
+  /* Header and Navigation */
+  .md-header {
+    background: #1e1e1e;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  .md-tabs {
+    background: #1e1e1e;
+    box-shadow: none;
+    border-top: none;
+  }
+
+  /* Navbar Text */
+  .md-header__title,
+  .md-header-nav__title {
+    color: #ffffff;
+  }
+
+  .md-tabs__link {
+    color: #ffffff;
+    opacity: 0.9;
+  }
+
+  .md-tabs__link--active,
+  .md-tabs__link:hover {
+    color: #ffffff;
+    opacity: 1;
+  }
+
+  .md-header__button {
+    color: #ffffff;
+  }
+
+  /* Content Backgrounds */
+  .md-main {
+    background-color: #242424;
+  }
+
+  .md-content {
+    background-color: #242424;
+  }
+
+  /* Typography */
+  .md-typeset h1,
+  .md-typeset h2,
+  .md-typeset h3 {
+    color: #e0e0e0;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Links */
+  .md-typeset a {
+    color: #ff6b9d;
+    font-weight: 500;
+    text-decoration-color: #ff6b9d;
+  }
+
+  .md-typeset a:hover {
+    color: #ffb3d1;
+    text-decoration-style: solid;
+    text-shadow: 0 0 8px rgba(255, 107, 157, 0.3);
+  }
+
+  /* Navigation */
+  .md-nav__link {
+    color: #cccccc;
+  }
+
+  .md-nav__link:hover {
+    color: #ff6b9d;
+  }
+
+  .md-nav__link--active,
+  .md-nav__item--active>.md-nav__link {
+    color: #ff6b9d;
+  }
+
+  .md-nav--secondary .md-nav__title {
+    color: #ff6b9d;
+    border-bottom-color: #ff6b9d;
+  }
+
+  /* Remove inconsistent navigation backgrounds */
+  .md-nav,
+  .md-nav__list,
+  .md-nav__item,
+  .md-nav__title {
+    background-color: transparent;
+  }
+
+  /* Ensure TOC consistency */
+  .md-nav--secondary,
+  .md-nav--secondary .md-nav__list,
+  .md-nav--secondary .md-nav__item {
+    background-color: transparent;
+  }
+
+  /* Code Blocks */
+  .md-typeset pre {
+    border-left-color: #ff6b9d;
+    background-color: #1a1a1a;
+  }
+
+  /* Admonitions */
+  .md-typeset .admonition {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Fixes for TOC and Navbar in Dark Mode */
+  .md-nav>.md-nav__list>.md-nav__item--active>.md-nav__link {
+    background-color: transparent;
+    box-shadow: none;
+  }
+
+  .md-container .md-footer .md-footer-meta {
+    background-color: #1a1a1a;
+    color: #888888;
+  }
+}
+
+/* =============================================================================
+   TRANSITIONS AND INTERACTIONS
+   ============================================================================= */
+
+.md-tabs__link,
+.md-nav__link,
+.md-typeset a,
+.md-header__button {
+  transition: all 0.2s ease;
+}
+
+.md-tabs__link:hover {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.md-typeset h1:hover,
+.md-typeset h2:hover,
+.md-typeset h3:hover {
+  transition: color 0.2s ease;
+}
+
+.md-typeset h1:hover,
+.md-typeset h2:hover,
+.md-typeset h3:hover {
+  color: var(--md-primary-fg-color--light);
+}
+
+[data-md-color-scheme="slate"] .md-typeset h1:hover,
+[data-md-color-scheme="slate"] .md-typeset h2:hover,
+[data-md-color-scheme="slate"] .md-typeset h3:hover {
+  color: #ffffff;
+}
