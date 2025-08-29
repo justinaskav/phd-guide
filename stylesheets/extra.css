@@ -1,0 +1,401 @@
+/* =============================================================================
+   VU University Brand Colors & Custom Properties
+   ============================================================================= */
+
+:root {
+  /* Base fallback values */
+  --md-primary-fg-color: #78003f;
+  --md-primary-fg-color--light: #9c1a5e;
+  --md-primary-fg-color--dark: #5a002f;
+  --md-primary-bg-color: #ffffff;
+  --md-primary-bg-color--light: #fcfcfc;
+  --md-accent-fg-color: #78003f;
+  --md-accent-fg-color--transparent: rgba(120, 0, 63, 0.1);
+  --md-accent-bg-color: #ffffff;
+  --md-accent-bg-color--light: #fcfcfc;
+  
+  /* Semantic colors */
+  --md-text-color: #333333;
+  --md-text-color--light: #666666;
+  --md-link-color: var(--md-primary-fg-color);
+  --md-link-hover-color: var(--md-primary-fg-color--dark);
+  --md-border-color: #e0e0e0;
+  --md-shadow-color: rgba(0, 0, 0, 0.1);
+  --md-code-bg-color: #f8f9fa;
+  --md-header-bg-color: var(--md-primary-fg-color);
+  --md-nav-bg-color: transparent;
+}
+
+/* Light Mode Variables */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #78003f;
+  --md-primary-fg-color--light: #9c1a5e;
+  --md-primary-fg-color--dark: #5a002f;
+  --md-primary-bg-color: #ffffff;
+  --md-primary-bg-color--light: #fcfcfc;
+  --md-accent-fg-color: #78003f;
+  --md-accent-fg-color--transparent: rgba(120, 0, 63, 0.1);
+  --md-accent-bg-color: #ffffff;
+  --md-accent-bg-color--light: #fcfcfc;
+  
+  /* Semantic colors */
+  --md-text-color: #333333;
+  --md-text-color--light: #666666;
+  --md-link-color: var(--md-primary-fg-color);
+  --md-link-hover-color: var(--md-primary-fg-color--dark);
+  --md-border-color: #e0e0e0;
+  --md-shadow-color: rgba(0, 0, 0, 0.1);
+  --md-code-bg-color: #f8f9fa;
+  --md-header-bg-color: var(--md-primary-fg-color);
+  --md-nav-bg-color: transparent;
+}
+
+/* Dark Mode Variables */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #ff6b9d;
+  --md-primary-fg-color--light: #ffb3d1;
+  --md-primary-fg-color--dark: #e55a8a;
+  --md-primary-bg-color: #242424;
+  --md-primary-bg-color--light: #2a2a2a;
+  --md-accent-fg-color: #ff6b9d;
+  --md-accent-fg-color--transparent: rgba(255, 107, 157, 0.2);
+  --md-accent-bg-color: #242424;
+  --md-accent-bg-color--light: #2a2a2a;
+  
+  /* Semantic colors */
+  --md-text-color: #e0e0e0;
+  --md-text-color--light: #cccccc;
+  --md-link-color: var(--md-primary-fg-color);
+  --md-link-hover-color: var(--md-primary-fg-color--light);
+  --md-border-color: #444444;
+  --md-shadow-color: rgba(0, 0, 0, 0.3);
+  --md-code-bg-color: #1a1a1a;
+  --md-header-bg-color: #1e1e1e;
+  --md-nav-bg-color: transparent;
+}
+
+/* =============================================================================
+   LIGHT MODE STYLES
+   ============================================================================= */
+
+[data-md-color-scheme="default"] {
+  /* Footer */
+  .md-container .md-footer {
+    background-color: var(--md-header-bg-color);
+  }
+
+  .md-container .md-footer .md-footer__inner {
+    background-color: var(--md-header-bg-color);
+  }
+
+  .md-container .md-footer .md-footer-meta {
+    background-color: var(--md-primary-fg-color--dark);
+    color: #ffffff;
+  }
+}
+
+/* Header and Navigation */
+.md-header {
+  background-color: var(--md-header-bg-color);
+  box-shadow: 0 2px 4px var(--md-shadow-color);
+}
+
+.md-tabs {
+  background-color: var(--md-header-bg-color);
+  box-shadow: 0 1px 3px var(--md-shadow-color);
+}
+
+/* Typography */
+.md-typeset h1 {
+  font-weight: 700;
+  color: var(--md-primary-fg-color);
+}
+
+.md-typeset h2,
+.md-typeset h3 {
+  font-weight: 600;
+  color: var(--md-primary-fg-color--dark);
+}
+
+/* Links and Content */
+.md-typeset a {
+  color: var(--md-link-color);
+  transition: all 0.2s ease;
+}
+
+.md-typeset a:hover {
+  color: var(--md-link-hover-color);
+}
+
+/* Navigation and Table of Contents */
+.md-nav__item--active>.md-nav__link,
+.md-nav__link--active {
+  color: var(--md-primary-fg-color);
+}
+
+.md-nav__link:hover {
+  color: var(--md-primary-fg-color--light);
+}
+
+.md-nav--secondary .md-nav__title {
+  font-weight: 600;
+  color: var(--md-primary-fg-color);
+  border-bottom: 2px solid var(--md-primary-fg-color--light);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.md-nav--secondary .md-nav__item {
+  margin-bottom: 0.3rem;
+}
+
+/* Content Area */
+.md-main__inner {
+  padding-top: 1rem;
+}
+
+.md-content {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+/* Code Blocks */
+.md-typeset pre {
+  border-left: 4px solid var(--md-primary-fg-color);
+  background-color: var(--md-code-bg-color);
+}
+
+/* Admonitions */
+.md-typeset .admonition {
+  box-shadow: 0 2px 4px var(--md-shadow-color);
+}
+
+/* Custom Question Details */
+.md-typeset details.question {
+  background-color: var(--md-accent-fg-color);
+  border-color: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.md-typeset details.question summary::before,
+.md-typeset details.question summary::after {
+  background-color: var(--md-primary-bg-color);
+}
+
+/* Search and Highlighting */
+.md-search-result__teaser mark {
+  background-color: var(--md-accent-fg-color--transparent);
+  color: var(--md-primary-fg-color--dark);
+}
+
+.md-typeset .highlight .hll {
+  background-color: var(--md-accent-fg-color--transparent);
+}
+
+/* =============================================================================
+   DARK MODE STYLES
+   ============================================================================= */
+
+[data-md-color-scheme="slate"] {
+  /* Navbar Text */
+  .md-header__title,
+  .md-header-nav__title {
+    color: #ffffff;
+  }
+
+  .md-tabs__link {
+    color: #ffffff;
+    opacity: 0.9;
+  }
+
+  .md-tabs__link--active,
+  .md-tabs__link:hover {
+    color: #ffffff;
+    opacity: 1;
+  }
+
+  .md-header__button {
+    color: #ffffff;
+  }
+
+  /* Search Input */
+  .md-search__input {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    border: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .md-search__input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .md-search__input:focus {
+    background-color: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  }
+
+  .md-search__form {
+    background-color: transparent;
+  }
+
+  /* Search Overlay */
+  .md-search__inner {
+    background-color: var(--md-primary-bg-color);
+  }
+
+  .md-search__output {
+    background-color: var(--md-primary-bg-color);
+    color: var(--md-text-color);
+  }
+
+  .md-search-result {
+    background-color: var(--md-primary-bg-color);
+    color: var(--md-text-color);
+  }
+
+  .md-search-result__meta {
+    color: var(--md-text-color--light);
+    background-color: var(--md-primary-bg-color);
+  }
+
+  .md-search-result__item {
+    background-color: var(--md-primary-bg-color);
+    border-bottom-color: var(--md-border-color);
+  }
+
+  .md-search-result__item:hover {
+    background-color: var(--md-primary-bg-color--light);
+  }
+
+  /* Header Icons */
+  .md-header__source,
+  .md-header .md-icon {
+    color: #ffffff;
+    opacity: 0.9;
+  }
+
+  .md-header__source:hover,
+  .md-header .md-icon:hover {
+    color: #ffffff;
+    opacity: 1;
+  }
+
+  /* Content Backgrounds */
+  .md-main {
+    background-color: var(--md-primary-bg-color);
+  }
+
+  .md-content {
+    background-color: var(--md-primary-bg-color);
+  }
+
+  /* Typography */
+  .md-typeset h1,
+  .md-typeset h2,
+  .md-typeset h3 {
+    color: var(--md-text-color);
+  }
+
+  /* Links */
+  .md-typeset a {
+    color: var(--md-link-color);
+    font-weight: 500;
+    text-decoration-color: var(--md-link-color);
+  }
+
+  .md-typeset a:hover {
+    color: var(--md-link-hover-color);
+    text-decoration-style: solid;
+  }
+
+  /* Navigation */
+  .md-nav__link {
+    color: var(--md-text-color--light);
+  }
+
+  .md-nav__link:hover {
+    color: var(--md-primary-fg-color);
+  }
+
+  .md-nav__link--active,
+  .md-nav__item--active>.md-nav__link {
+    color: var(--md-primary-fg-color);
+  }
+
+  .md-nav--secondary .md-nav__title {
+    color: var(--md-primary-fg-color);
+    border-bottom-color: var(--md-primary-fg-color);
+  }
+
+  /* Remove inconsistent navigation backgrounds */
+  .md-nav,
+  .md-nav__list,
+  .md-nav__item,
+  .md-nav__title {
+    background-color: var(--md-nav-bg-color);
+  }
+
+  /* Ensure TOC consistency */
+  .md-nav--secondary,
+  .md-nav--secondary .md-nav__list,
+  .md-nav--secondary .md-nav__item {
+    background-color: var(--md-nav-bg-color);
+  }
+
+  /* Code Blocks */
+  .md-typeset pre {
+    border-left-color: var(--md-primary-fg-color);
+    background-color: var(--md-code-bg-color);
+  }
+
+  /* Admonitions */
+  .md-typeset .admonition {
+    box-shadow: 0 2px 4px var(--md-shadow-color);
+  }
+
+  /* Fixes for TOC and Navbar in Dark Mode */
+  .md-nav>.md-nav__list>.md-nav__item--active>.md-nav__link {
+    background-color: var(--md-nav-bg-color);
+    box-shadow: none;
+  }
+
+  .md-container .md-footer {
+    background-color: var(--md-header-bg-color);
+  }
+
+  .md-container .md-footer .md-footer__inner {
+    background-color: var(--md-header-bg-color);
+  }
+
+  .md-container .md-footer .md-footer-meta {
+    background-color: var(--md-code-bg-color);
+    color: var(--md-text-color);
+  }
+}
+
+/* =============================================================================
+   TRANSITIONS AND INTERACTIONS
+   ============================================================================= */
+
+.md-tabs__link,
+.md-nav__link,
+.md-typeset a,
+.md-header__button {
+  transition: all 0.2s ease;
+}
+
+.md-typeset h1:hover,
+.md-typeset h2:hover,
+.md-typeset h3:hover {
+  color: var(--md-primary-fg-color--light);
+  transition: color 0.2s ease;
+}
+
+[data-md-color-scheme="slate"] .md-typeset h1:hover,
+[data-md-color-scheme="slate"] .md-typeset h2:hover,
+[data-md-color-scheme="slate"] .md-typeset h3:hover {
+  color: #ffffff;
+}
