@@ -109,7 +109,7 @@ To summarise:
 regulate their doctoral students and the doctoral committees, as well as they have a
 comprehensive knowledge of OUR Life Sciences issues, which is beneficial for our future as
 scientists.
-- on the other hand, the **[Department of Doctoral and Postdoctoral Studies at Vilnius University](/en/contacts/#vu-doctoral-and-postdoctoral-studies-department)** is the outside help center. 
+- on the other hand, the **[Department of Doctoral and Postdoctoral Studies at Vilnius University](contacts.md#vu-doctoral-and-postdoctoral-studies-department)** is the outside help center. 
 General questions about your doctoral studies will be answered there. 
 They will answer most of the general questions you have or direct you to another source of information. 
 The ability to use multiple sources of information is always a good strategy.

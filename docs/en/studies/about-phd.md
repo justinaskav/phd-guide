@@ -20,6 +20,8 @@ supervised by it. It`s main tasks are:
 - to examine the submitted dissertation and decide whether the doctoral candidate can defend his/her dissertation;
 - to form a committee for the defence of a doctoral thesis.
 
+You can find the list of doctoral committees at the [Contacts](../contacts.md#phd-committees) page.
+
 ## Joint Doctoral Studies
 
 To promote and expand international exchange, joint doctoral studies can be carried out with

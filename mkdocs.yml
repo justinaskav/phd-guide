@@ -1,7 +1,7 @@
 site_name: VU LSC PhD Student Guide
 site_url: https://justinaskav.github.io/phd-guide/ 
 repo_url: https://github.com/justinaskav/phd-guide
-repo_name: LSC PhD Guide
+# repo_name: LSC PhD Guide
 edit_uri: edit/main/docs/
 theme:
   # logo: 
@@ -16,9 +16,9 @@ theme:
     - content.action.view
     - content.action.edit
     - footnotes
-    - navigation.instant
-    - navigation.instant.prefetch
-    - navigation.instant.progress
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
     - navigation.expand
     # - navigation.sections
     - navigation.tracking
@@ -85,3 +85,5 @@ plugins:
             - Contacts: contacts.md
             - Useful Links: useful-links.md
             - FAQ: faq.md
+  - git-revision-date-localized:
+      enable_creation_date: true

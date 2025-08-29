@@ -13,9 +13,17 @@ hide:
 | Doctoral Studies Administrator | Kristina Slavuckytė | <kristina.slavuckyte@gmc.vu.lt> | C504 |
 
 
+## Other PhD studies administrators
+
+| Question type | Contact person | E-mail | Phone | Office |
+| --- | --- | --- | --- | --- |
+| Balance of funds | Vidutė Bobinienė | <vidute.bobiniene@gmc.vu.lt> | +370 5 219 4423 | C137 |
+| Funding for academic trips | Ilma Jonaitytė | <ilma.jonaityte@cr.vu.lt> | +370 5 268 7008 | C510 |
+
+
 ## PhD Student Representatives at LSC
 
-See [here](/en/student-representation).
+See [here](student-representation.md).
 
 ## VU Doctoral and Postdoctoral Studies Department
 

@@ -62,13 +62,19 @@ Slavuckytė.
 
 It is recommended to think about all the stages of a doctoral research project thoroughly and
 to list them in chronological order so that the plan could really serve as a guide during the
-studies. The research programme should be drawn up according to the form with the
+studies. **The research programme** should be drawn up according to the form with the
 allocated time periods for each part of the doctoral research project. 
 
 The programme shall
-consist of the following parts: study of research literature, formation of methodology,
-theoretical and empirical studies, analysis of collected data, and preparation of the
-dissertation. All work listed in the plan must be completed by the end of the study period at
+consist of the following parts: 
+
+1. study of research literature; 
+2. formation of methodology;
+3. theoretical and empirical studies;
+4. analysis of collected data; 
+5. preparation of the dissertation. 
+
+All work listed in the plan must be completed by the end of the study period at
 the latest. The scope of dissemination of the research results should correspond to that
 required for the defence of the dissertation. The progress of the doctoral student’s research
 activities will be assessed during the annual review.

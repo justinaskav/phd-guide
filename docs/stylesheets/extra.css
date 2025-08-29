@@ -56,7 +56,6 @@
   background-color: var(--md-accent-fg-color--transparent);
 }
 
-.md-typeset .admonition,
 .md-typeset details.question {
   background-color: var(--md-accent-fg-color);
   border-color: var(--md-primary-fg-color);
@@ -70,6 +69,11 @@
   background-color: var(--md-primary-bg-color);
 }
 
+.md-typeset a {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: var(--md-primary-fg-color);
+}
 
 
 /* Admonition headers with VU colors */
