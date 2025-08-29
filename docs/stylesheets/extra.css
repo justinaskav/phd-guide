@@ -21,13 +21,60 @@
   background-color: var(--md-primary-fg-color);
 }
 
+/* Dark mode specific styling */
+[data-md-color-scheme="slate"] .md-header {
+  background-color: var(--md-primary-fg-color--dark);
+}
+
+[data-md-color-scheme="slate"] .md-tabs {
+  background-color: var(--md-primary-fg-color--dark);
+}
+
+/* Make navbar text white and visible in dark mode */
+[data-md-color-scheme="slate"] .md-header__title,
+[data-md-color-scheme="slate"] .md-header-nav__title {
+  color: #ffffff !important;
+}
+
+[data-md-color-scheme="slate"] .md-tabs__link {
+  color: #ffffff !important;
+  opacity: 0.9;
+}
+
+[data-md-color-scheme="slate"] .md-tabs__link--active,
+[data-md-color-scheme="slate"] .md-tabs__link:hover {
+  color: #ffffff !important;
+  opacity: 1;
+}
+
+[data-md-color-scheme="slate"] .md-header__button {
+  color: #ffffff;
+}
+
 /* Links and buttons */
 .md-typeset a {
   color: var(--md-primary-fg-color);
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: var(--md-primary-fg-color);
 }
 
 .md-typeset a:hover {
   color: var(--md-primary-fg-color--dark);
+}
+
+/* Links and buttons - brighter and more prominent in dark mode */
+[data-md-color-scheme="slate"] .md-typeset a {
+  color: var(--md-primary-fg-color--light);
+  font-weight: 500;
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: var(--md-primary-fg-color--light);
+}
+
+[data-md-color-scheme="slate"] .md-typeset a:hover {
+  color: #ffffff;
+  text-decoration-style: solid;
 }
 
 /* Navigation active states */
@@ -69,11 +116,6 @@
   background-color: var(--md-primary-bg-color);
 }
 
-.md-typeset a {
-  text-decoration-line: underline;
-  text-decoration-style: dotted;
-  text-decoration-color: var(--md-primary-fg-color);
-}
 
 
 /* Admonition headers with VU colors */
