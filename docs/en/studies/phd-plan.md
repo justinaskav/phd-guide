@@ -1,24 +1,19 @@
 # Plan of Doctoral Studies
 
-Within two months of starting the doctoral programme, the doctoral student, with the support
-of the supervisor, draws up a work plan for the doctoral studies, the scientific research and
-the preparation of the doctoral thesis, which:
+Most of the information concerning the preparation of the plan is 
 
-- lists the courses to be taken and the examination dates;
-- describes the research programme and the stages of its implementation, the preparation of the dissertation;
-- lists the expected publications and planned mobility activities such as internships and conferences.
+!!! quote "Article 40 of the Regulations of Doctoral Studies at Vilnius University"
 
-[More information on organisation of doctoral studies / work plan](https://www.gmc.vu.lt/en/doctoral-school/phd-studies#organization-of-doctoral-studies)
+    Within two months from the beginning of the doctoral studies, a doctoral student, assisted by his/her supervisor, **shall draw up a work plan** of the doctoral studies that details **the courses to be followed** and the **timeline of examinations**, **the projected research programme** and **the stages of its implementation, publication of the results and planned internships**. Individual doctoral study plans are approved and, where necessary, amended at a meeting of the Committee.
 
-Individual doctoral study plans are approved and amended at a meeting of the relevant
-Doctoral Committee within the same two-month period. The plan forms can be found here:
+For example, if a doctoral student starts his/her studies in October, that means that the plan must be prepared by the end of November, although the call for the submission of plans may be announced earlier.
 
-- [Plan form (English)](https://www.gmc.vu.lt/en/doctoral-school/phd-studies#document-forms)
-- [Plan form (Lithuanian)](https://www.gmc.vu.lt/doktoranturos-mokykla/doktoranturos-studijos#dokumentu-pavyzdzai)
+- [gmc.vu.lt - Plan form (.docx)](https://www.gmc.vu.lt/en/doctoral-school/phd-studies#document-forms)
+- [gmc.vu.lt - Organisation of doctoral studies / work plan](https://www.gmc.vu.lt/en/doctoral-school/phd-studies#organization-of-doctoral-studies)
 
-## Exams
+## Planning of studies and exams
 
-The scope of doctoral studies comprises at least 30 credits. A doctoral student studies at
+The scope of doctoral studies comprises at least 30 ECTS credits. A doctoral student studies at
 least 3 courses related to a doctoral project, which must be listed in the plan, and at least
 3 ECTS credits must be earned for participation in general (transferable) competency
 development activities. 

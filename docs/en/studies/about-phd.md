@@ -4,11 +4,13 @@ The aim of doctoral studies is to train scientists who are able to conduct
 independent scientific research and experimental development and solve scientific
 problems.
 
+Doctoral studies are reglamented by the [Regulations of Doctoral Studies at Vilnius University](https://www.vu.lt/site_files/DRS/Doctoral_Studies/Regulations_of_Doctoral_Studies_EN_2020-10-06.pdf). Relevant articles of the Regulations will be cited in this page.
+
 ## Doctoral Committees and Programmes
 
 The doctoral studies in a certain scientific field are formed by the doctoral committee - a
 group of high-ranking scientists - and the implementation of the studies and research is
-supervised by it. It`s main tasks are:
+supervised by it. It's main tasks are:
 
 - to ensure a high scientific standard of the defended dissertations;
 - to propose and approve amendments to the doctoral study programmes;

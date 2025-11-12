@@ -28,6 +28,8 @@ As LSC takes the leadership to internationalise the life sciences community in L
 see the importance of having a student guide that is understandable to every doctoral
 student in our center. 
 
+The guide will directly cite parts of the official documents and regulations, most of important of which are the [Regulations of Doctoral Studies at Vilnius University](https://www.vu.lt/site_files/DRS/Doctoral_Studies/Regulations_of_Doctoral_Studies_EN_2020-10-06.pdf).
+
 Please note, however, that some of the official documents and legislations that regulate our studies
 and are referred to in the text are in Lithuanian. We have tried to translate the most
 important parts of these regulations, and most importantly, we ought to explicitly describe the
